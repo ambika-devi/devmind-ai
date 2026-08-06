@@ -1,0 +1,26 @@
+{
+  "name": "devmind-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI Powered Developer Workspace built using MERN Stack",
+  "workspaces": [
+    "client",
+    "server",
+    "shared",
+    "worker"
+  ],
+  "scripts": {
+    "client": "npm run dev --workspace client",
+    "server": "npm run dev --workspace server",
+    "worker": "npm run dev --workspace worker"
+  },
+  "keywords": [
+    "mern",
+    "typescript",
+    "ai",
+    "react",
+    "express"
+  ],
+  "author": "Ambika Devi",
+  "license": "MIT"
+}
