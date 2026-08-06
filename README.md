@@ -37,3 +37,24 @@ An AI-powered Developer Workspace built with the MERN Stack.
 ## Status
 
 🚧 Under Development
+
+
+## Project Structure
+
+```text
+client/   -> React Application
+server/   -> Express API
+shared/   -> Shared Types & Utilities
+worker/   -> Background Jobs
+docs/     -> Documentation
+docker/   -> Docker Configuration
+scripts/  -> Automation Scripts
+
+## Development Standards
+
+- TypeScript
+- ESLint
+- Prettier
+- Husky
+- Conventional Commits
+- Docker
