@@ -3,7 +3,7 @@ import cors from 'cors';
 import helmet from 'helmet';
 import morgan from 'morgan';
 
-import healthRouter from './routes/health.routes';
+import healthRouter from './routes/health.routes.js';
 
 const app = express();
 
